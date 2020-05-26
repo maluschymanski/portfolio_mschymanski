@@ -6,6 +6,7 @@ import {Goals} from './Goals';
 import {Experience} from './Experience';
 import {Education} from './Education';
 import {Skills} from './Skills';
+import {Blog} from './Blog'
 import {Contact} from './Contact';
 import {NoMatch} from './NoMatch';
 import {Layout} from './components/Layout';
@@ -28,6 +29,7 @@ class App extends Component {
               <Route path="/experience" component={Experience} />
               <Route path="/education" component={Education} />
               <Route path="/skills" component={Skills} />
+              <Route path="/blog" component={Blog} />
               <Route path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>

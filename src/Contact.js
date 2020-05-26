@@ -2,12 +2,15 @@ import React from 'react'
 
 export const Contact = () => (
     <div>
-        <h2>Contact Page</h2>
+        <h2>CONTACT ME</h2>
         <p>
-            blablablabla
+           
         </p>
         <p>
-            blablabla bli blub
+        maluschymanski@outlook.de 
+        </p>
+        <p>
+        t: +49163 1905106 
         </p>
     </div>
 )

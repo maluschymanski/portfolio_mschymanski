@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import GitIcon from './assets/Octocat_blueBackground.png';
 
 const Styles = styled.div`
-    div{
-       
+    h2, p, .list-group,.list-group-item{
+        text-align: center; 
     }
 
     .list-group-item{
-        background-color: #1c1c1c;
+        background-color: #1c1c1c; 
         color: white;
-        
+
     }
 
     #gitIcon{
@@ -24,9 +24,20 @@ export const Home = () => (
 
     <Styles>
         <div>
-            <h2>Hello There</h2>
+            <h2>Hello There,</h2>
             <p>
-                Lorem Ipsum 
+                my Name is Malu and I am a student, software developer and explorer from Düsseldorf.                 
+            </p>
+            <p>
+                I love exploring the world of technology and learning new things and
+                I believe that people can do a much more than they think. 
+            </p>
+            <p>
+                In addition to technology, I am very interested in politics this is why I joined Die Grünen at the beginning of the year. 
+                I also opted for a vegan, healthy, frugalist and minimalist life.
+            </p>
+            <p>
+                In my free time I like to code static websites for friends and family. If you are curious please do not hesitate to have a look: 
             </p>
                  
             <ul class="list-group list-group-flush">
@@ -36,7 +47,10 @@ export const Home = () => (
                 <li class="list-group-item"><a href="http://friederhaus.de/"> Friederhaus</a></li>
             </ul>
             <p>
-                Ein paar meiner Projekte, so wie auch dieses hier können über meinen Github-Account geklont werden: <img id="gitIcon" src={GitIcon} alt="Git Icon" /> <a href="https://github.com/maluschymanski">github.com/maluschymanski</a>
+                A few projects - like this one - can be cloned from my Github profile:  <img id="gitIcon" src={GitIcon} alt="Git Icon" /> <a href="https://github.com/maluschymanski">github.com/maluschymanski</a>
+            </p>
+            <p>
+              When I'm not in front of a computer I like to go for a run, do Yoga, develop healthy and vegan cakes, pancakes or cookies or spend time with family and friends.   
             </p>
        </div>
     </Styles>
