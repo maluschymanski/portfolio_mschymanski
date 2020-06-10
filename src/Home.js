@@ -29,15 +29,14 @@ export const Home = () => (
                 my Name is Malu and I am a student, software developer and explorer from Düsseldorf.                 
             </p>
             <p>
-                I love exploring the world of technology and learning new things and
-                I believe that people can do a much more than they think. 
+                I love exploring the world of technology and learning new things.
             </p>
             <p>
                 In addition to technology, I am very interested in politics this is why I joined Die Grünen at the beginning of the year. 
                 I also opted for a vegan, healthy, frugalist and minimalist life.
             </p>
             <p>
-                In my free time I like to code static websites for friends and family. If you are curious please do not hesitate to have a look: 
+                In my free time I like to write static websites for friends and family. If you are curious please do not hesitate to have a look: 
             </p>
                  
             <ul class="list-group list-group-flush">
@@ -50,7 +49,7 @@ export const Home = () => (
                 A few projects - like this one - can be cloned from my Github profile:  <img id="gitIcon" src={GitIcon} alt="Git Icon" /> <a href="https://github.com/maluschymanski">github.com/maluschymanski</a>
             </p>
             <p>
-              When I'm not in front of a computer I like to go for a run, do Yoga, develop healthy and vegan cakes, pancakes or cookies or spend time with family and friends.   
+              When I'm not in front of a computer I like to go for a run, do yoga, develop healthy and vegan cakes, pancakes or cookies or spend time with family and friends.   
             </p>
        </div>
     </Styles>
