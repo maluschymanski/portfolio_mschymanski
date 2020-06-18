@@ -26,7 +26,7 @@ export const Home = () => (
         <div>
             <h2>Hello There,</h2>
             <p>
-                my Name is Malu and I am a student, software developer and explorer from Düsseldorf.                 
+                my Name is Lu and I am a student, software developer and explorer from Düsseldorf.                 
             </p>
             <p>
                 I love exploring the world of technology and learning new things.
