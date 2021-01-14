@@ -25,12 +25,12 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
         <Navbar expand="lg">
-            <Navbar.Brand href="/"> Life of Lu </Navbar.Brand>
+            <Navbar.Brand href="/"> Bla </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     
-                    <Nav.Item><Nav.Link href="/contact">Contact</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/contact">x</Nav.Link></Nav.Item>
                 </Nav>
                 </Navbar.Collapse>
         </Navbar>
